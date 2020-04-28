@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"css.validate": false,
+		"scss.validate": false,
+		"vetur.validation.style": false,
+		"vetur.format.defaultFormatter.html": "js-beautify-html",
+		"vetur.format.defaultFormatter.js": "vscode-typescript",
+		"vetur.format.defaultFormatter.css": "prettier",
+		"vetur.format.defaultFormatterOptions": {
+			"js-beautify-html": {
+				"wrap_attributes": "force-aligned",
+				"indent_size": 2
+			}
+		}
+	}
+}
