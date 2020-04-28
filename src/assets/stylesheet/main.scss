@@ -3,4 +3,16 @@
 @import "tailwindcss/utilities";
 
 /* purgecss start ignore */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
 /* purgecss end ignore */
